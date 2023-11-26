@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJENDA!</title>
+    <link rel="icon" href="images/icon1.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="to-do-app">
+        <h2>AJENDA! <img src="images/icon1.png" /></h2>
+        <div class="row">
+          <input
+            type="text"
+            id="input-box"
+            placeholder="andika hano/type your text"
+          />
+          <select id="priority-input">
+            <option value="1">High Priority</option>
+            <option value="2">Medium Priority</option>
+            <option value="3">Low Priority</option>
+          </select>
+          <button onclick="addTask()">SUBMIT</button>
+        </div>
+        <ol id="list-container">
+          <!-- <li class="checked">Task 1</li>
+          <li>Task 2</li>
+          <li>Task 3</li> -->
+        </ol>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
